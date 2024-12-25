@@ -1,0 +1,368 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description. NL Second line.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "${modID}:Opportunist": {
+    "NAME": "Opportunist",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack, gain !B! Block instead."
+  },
+  "${modID}:Confound": {
+    "NAME": "Confound",
+    "DESCRIPTION": "Double the enemy's Weak. NL Apply !M! Weak.",
+    "UPGRADE_DESCRIPTION": "Apply !M! Weak. NL Double the enemy's Weak."
+  },
+  "${modID}:BodyPurge": {
+    "NAME": "Body Purge",
+    "DESCRIPTION": "Gain !B! Block. NL Remove all Weak, Frail, and Vulnerable."
+  },
+  "${modID}:ShadowTrail": {
+    "NAME": "Shadow Trail",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack, deal !D! damage again."
+  },
+  "${modID}:KinStrike": {
+    "NAME": "Kin Strike",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies related to this enemy."
+  },
+  "${modID}:Morph": {
+    "NAME": "Morph",
+    "DESCRIPTION": "Gain !B! Block. NL Next turn, gain half as much Block. NL Repeat."
+  },
+  "${modID}:Transfusion": {
+    "NAME": "Transfusion",
+    "DESCRIPTION": "Deal !D! damage. NL Transfer all Weak to the enemy.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Transfer all Weak and Vulnerable to the enemy."
+  },
+  "${modID}:ActNatural": {
+    "NAME": "Act Natural",
+    "DESCRIPTION": "Draw !M! cards. NL Gain !B! Block for each Basic or Common card drawn."
+  },
+  "${modID}:LashOut": {
+    "NAME": "Lash Out",
+    "DESCRIPTION": "Deal !D! damage. NL If you have Weak, deal !${modID}:weakDamage! damage instead."
+  },
+  "${modID}:Tilt": {
+    "NAME": "Tilt",
+    "DESCRIPTION": "Gain !M! Strength. NL Lose !${modID}:dexNumber! Dexterity."
+  },
+  "${modID}:Sway": {
+    "NAME": "Sway",
+    "DESCRIPTION": "Gain !M! Dexterity. NL Lose !${modID}:strNumber! Strength."
+  },
+  "${modID}:JellyBody": {
+    "NAME": "Jelly Body",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Weak."
+  },
+  "${modID}:Thrash": {
+    "NAME": "Thrash",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Frail."
+  },
+  "${modID}:Pseudopods": {
+    "NAME": "Pseudopods",
+    "DESCRIPTION": "Deal !D! damage 3 times. NL Add 2 *Slimed into your discard pile."
+  },
+  "${modID}:PsychOut": {
+    "NAME": "Psych Out",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy does not intend to attack, apply !M! Vulnerable."
+  },
+  "${modID}:LeechingRoots": {
+    "NAME": "Leeching Roots",
+    "DESCRIPTION": "Apply !M! ${modID}:Leech."
+  },
+  "${modID}:Taunt": {
+    "NAME": "Taunt",
+    "DESCRIPTION": "Gain [E] [E]. NL Enemy gains 4 temporary Strength.",
+    "UPGRADE_DESCRIPTION": "Gain [E] [E] [E]. NL Enemy gains 4 temporary Strength."
+  },
+  "${modID}:BroodParasite": {
+    "NAME": "Brood Parasite",
+    "DESCRIPTION": "Gain !${modID}:selfVulnAmt! Vulnerable. NL Apply !M! Vulnerable to ALL enemies."
+  },
+  "${modID}:Tangle": {
+    "NAME": "Tangle",
+    "DESCRIPTION": "Deal !D! damage and apply !M! ${modID}:Leech to ALL enemies."
+  },
+  "${modID}:OrganTheft": {
+    "NAME": "Organ Theft",
+    "DESCRIPTION": "Deal !D! damage. NL If this kills an enemy, gain [E] [E] and draw !M! cards."
+  },
+  "${modID}:FleshToBone": {
+    "NAME": "Flesh to Bone",
+    "DESCRIPTION": "Add a *Teeth and a *Ribs into your hand.",
+    "UPGRADE_DESCRIPTION": "Add a *Teeth+ and a *Ribs+ into your hand."
+  },
+  "${modID}:Dredge": {
+    "NAME": "Dredge",
+    "DESCRIPTION": "Deal !D! damage. NL Play the lowest-cost card in your hand."
+  },
+  "${modID}:TapetumLucidum": {
+    "NAME": "Tapetum Lucidum",
+    "DESCRIPTION": "Add an *Eye into your hand. NL Shuffle an *Eye into your draw pile.",
+    "UPGRADE_DESCRIPTION": "Add an *Eye+ into your hand. NL Shuffle an *Eye+ into your draw pile."
+  },
+  "${modID}:Mire": {
+    "NAME": "Mire",
+    "DESCRIPTION": "The enemy becomes ${modID}:Slow. NL Exhaust."
+  },
+  "${modID}:PickOff": {
+    "NAME": "Pick Off",
+    "DESCRIPTION": "Deal !D! damage to the enemy with the least remaining HP."
+  },
+  "${modID}:GuardUp": {
+    "NAME": "Guard Up",
+    "DESCRIPTION": "Gain !B! Block. NL If you have Frail, gain !${modID}:frailBlock! Block instead."
+  },
+  "${modID}:Shifter": {
+    "NAME": "Shifter",
+    "DESCRIPTION": "At the start of your turn, if any enemy intends to attack, gain !M! temporary Dexterity, otherwise gain !M! temporary Strength."
+  },
+  "${modID}:RaiseHackles": {
+    "NAME": "Raise Hackles",
+    "DESCRIPTION": "At the start of your turn, if ALL enemies intend to attack, NL gain [E].",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, if any enemy intends to attack, NL gain [E]."
+  },
+  "${modID}:Refresh": {
+    "NAME": "Refresh",
+    "DESCRIPTION": "Gain [E] [E] [E]. NL Increase this card's cost by 1 this combat.",
+    "UPGRADE_DESCRIPTION": "Gain [E] [E] [E] [E]. NL Increase this card's cost by 1 this combat."
+  },
+  "${modID}:ShudderingBody": {
+    "NAME": "Shuddering Body",
+    "DESCRIPTION": "Deal !D! damage and gain !B! Block X times."
+  },
+  "${modID}:LongCon": {
+    "NAME": "Long Con",
+    "DESCRIPTION": "Next time the enemy does not intend to attack, it loses !M! HP."
+  },
+  "${modID}:Engulf": {
+    "NAME": "Engulf",
+    "DESCRIPTION": "Deal !D! damage. NL Heal !M! HP. NL Exhaust."
+  },
+  "${modID}:Entropy": {
+    "NAME": "Entropy",
+    "DESCRIPTION": "Ethereal. NL Deal !D! damage. NL Turn a card in your hand into a copy of this card.",
+    "EXTENDED_DESCRIPTION": [
+      "turn into Entropy"
+    ]
+  },
+  "${modID}:MaskOff": {
+    "NAME": "Mask Off",
+    "DESCRIPTION": "If you are below half HP, remove all of your debuffs and gain 1 Strength for each. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Remove all of your debuffs and gain 1 Strength for each. NL Exhaust."
+  },
+  "${modID}:Uproot": {
+    "NAME": "Uproot",
+    "DESCRIPTION": "Activate ${modID}:Leech on the enemy !M! times. NL Remove all ${modID}:Leech from the enemy."
+  },
+  "${modID}:ElaborateDeception": {
+    "NAME": "Elaborate Deception",
+    "DESCRIPTION": "Draw 3 cards. NL If you draw 3 Skills, apply 2 Weak to ALL enemies.",
+    "UPGRADE_DESCRIPTION": "Draw 3 cards. NL If you draw at least 2 Skills, apply 2 Weak to ALL enemies."
+  },
+  "${modID}:MuscleMemory": {
+    "NAME": "Muscle Memory",
+    "DESCRIPTION": "Deal !D! damage. NL Choose a card in your hand and Retain it for the rest of combat.",
+    "EXTENDED_DESCRIPTION": [
+      "Retain"
+    ]
+  },
+  "${modID}:Cordyceps": {
+    "NAME": "Cordyceps",
+    "DESCRIPTION": "If the enemy intends to attack and has ${modID}:Leech, ${modID}:Stun it. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "If the enemy intends to attack and has ${modID}:Leech, ${modID}:Stun it and apply !M! Vulnerable. NL Exhaust."
+  },
+  "${modID}:Repurpose": {
+    "NAME": "Repurpose",
+    "DESCRIPTION": "If you have unused Block at the start of your turn, draw !M! cards.",
+    "UPGRADE_DESCRIPTION": "Innate. NL If you have unused Block at the start of your turn, draw !M! cards."
+  },
+  "${modID}:Overgrowth": {
+    "NAME": "Overgrowth",
+    "DESCRIPTION": "Apply !M! ${modID}:Leech. NL Increase this card's ${modID}:Leech by !${modID}:boost! this combat. NL Shuffle this card into your draw pile."
+  },
+  "${modID}:LethalEnvy": {
+    "NAME": "Lethal Envy",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has more HP remaining than you, deal !D! damage again."
+  },
+  "${modID}:BrandNewMe": {
+    "NAME": "Brand New Me",
+    "DESCRIPTION": "Add an *Eye, *Teeth, *Ribs, and *Heart into your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add an *Eye, *Teeth, *Ribs, and *Heart into your hand."
+  },
+  "${modID}:Autotomize": {
+    "NAME": "Autotomize",
+    "DESCRIPTION": "Whenever you play a ${modID}:Body_Part, gain !M! Block."
+  },
+  "${modID}:Provoke": {
+    "NAME": "Provoke",
+    "DESCRIPTION": "Deal !D! damage twice. NL ${modID}:Enrage the enemy."
+  },
+  "${modID}:SelfAmputate": {
+    "NAME": "Self-Amputate",
+    "DESCRIPTION": "Exhaust 1 card. NL Discard 1 card. NL Draw !M! cards."
+  },
+  "${modID}:BloodPounding": {
+    "NAME": "Blood Pounding",
+    "DESCRIPTION": "Deal !D! damage. NL Add a *Heart into your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add a *Heart+ into your hand."
+  },
+  "${modID}:ShedFangs": {
+    "NAME": "Shed Fangs",
+    "DESCRIPTION": "Deal !D! damage. NL Add a *Teeth on top of your draw pile.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add a *Teeth+ on top of your draw pile."
+  },
+  "${modID}:FogOfSpores": {
+    "NAME": "Fog of Spores",
+    "DESCRIPTION": "At the start of your turn, apply !M! ${modID}:Leech to a random enemy.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, apply !M! ${modID}:Leech to ALL enemies."
+  },
+  "${modID}:PlayPossum": {
+    "NAME": "Play Possum",
+    "DESCRIPTION": "Lose !M! HP. NL Gain Block equal to your missing HP.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Gain !B! Block.)"
+    ]
+  },
+  "${modID}:GraveRobbing": {
+    "NAME": "Grave Robbing",
+    "DESCRIPTION": "Add X *Ribs into your hand.",
+    "UPGRADE_DESCRIPTION": "Add X+1 *Ribs into your hand."
+  },
+  "${modID}:Bloom": {
+    "NAME": "Bloom",
+    "DESCRIPTION": "${modID}:Leech lasts !M! additional turns."
+  },
+  "${modID}:Outreach": {
+    "NAME": "Outreach",
+    "DESCRIPTION": "Add a random Red, Green, Blue, and Purple card into your hand. They cost 0 this turn. NL Exhaust."
+  },
+  "${modID}:OwnMedicine": {
+    "NAME": "Own Medicine",
+    "DESCRIPTION": "Apply !M! ${modID}:Leech. NL If the enemy intends to inflict a debuff, apply twice as much."
+  },
+  "${modID}:RottenStench": {
+    "NAME": "Rotten Stench",
+    "DESCRIPTION": "Enemy loses !M! Strength. NL Enemy regains 1 Strength at the end of its turn for the next !${modID}:strengthUpAmt! turns. NL Exhaust."
+  },
+  "${modID}:MirrorShard": {
+    "NAME": "Mirror Shard",
+    "DESCRIPTION": "If the enemy has Block, steal it. NL Otherwise, deal !D! damage."
+  },
+  "${modID}:MyceliumNetwork": {
+    "NAME": "Mycelium Network",
+    "DESCRIPTION": "Apply !M! ${modID}:Leech as evenly as possible among ALL enemies."
+  },
+  "${modID}:Inspiration": {
+    "NAME": "Inspiration",
+    "DESCRIPTION": "Whenever the enemy gains Strength, gain !M! Strength."
+  },
+  "${modID}:Infection": {
+    "NAME": "Infection",
+    "DESCRIPTION": "Whenever you apply ${modID}:Leech, apply !M! more."
+  },
+  "${modID}:Rebirth": {
+    "NAME": "Rebirth",
+    "DESCRIPTION": "Gain !${modID}:selfVulnAmt! Vulnerable. NL Heal !M! HP. NL Exhaust."
+  },
+  "${modID}:InvasiveTendrils": {
+    "NAME": "Invasive Tendrils",
+    "DESCRIPTION": "Deal !D! damage. NL Activate ${modID}:Leech on ALL enemies."
+  },
+  "${modID}:SoulSap": {
+    "NAME": "Soul Sap",
+    "DESCRIPTION": "Ethereal. NL Steal half the enemy's Strength. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Steal half the enemy's Strength. NL Exhaust."
+  },
+  "${modID}:Compost": {
+    "NAME": "Compost",
+    "DESCRIPTION": "Exhaust a card in your discard pile. NL Gain [E] equal to its cost."
+  },
+  "${modID}:GrimVisions": {
+    "NAME": "Grim Visions",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Increase ALL enemy debuffs by !M!."
+  },
+  "${modID}:Mockingbird": {
+    "NAME": "Mockingbird",
+    "DESCRIPTION": "If the enemy intends to attack, copy its attack.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Deals !D! damage.)",
+      " NL (Deals !D! damage ",
+      " times.)"
+    ]
+  },
+  "${modID}:MyriadForms": {
+    "NAME": "Myriad Forms",
+    "DESCRIPTION": "Ethereal. NL Whenever you play 2 cards, draw a card.",
+    "UPGRADE_DESCRIPTION": "Whenever you play 2 cards, draw a card."
+  },
+  "${modID}:PorcelainSmile": {
+    "NAME": "Porcelain Smile",
+    "DESCRIPTION": "Attacks deal double damage. NL Lost upon taking unblocked damage."
+  },
+  "${modID}:ThousandPupils": {
+    "NAME": "Thousand Pupils",
+    "DESCRIPTION": "Shuffle ALL your cards into your draw pile. NL Add !M! *Eyes into your hand. NL Exhaust."
+  },
+  "${modID}:CorpseCannon": {
+    "NAME": "Corpse Cannon",
+    "DESCRIPTION": "Deal damage equal to !M! times the number of ${modID}:Body_Parts played this combat.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Deals !D! damage.)"
+    ]
+  },
+  "${modID}:Graft": {
+    "NAME": "Graft",
+    "DESCRIPTION": "Whenever a card is created, deal !M! damage to ALL enemies."
+  },
+  "${modID}:Reform": {
+    "NAME": "Reform",
+    "DESCRIPTION": "Choose 1 of 20 cards to add into your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose 1 of 20 Upgraded cards to add into your hand. NL Exhaust."
+  },
+  "${modID}:TakeWithoutAsking": {
+    "NAME": "Take Without Asking",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, gain a Relic after combat and permanently transform this card.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL If Fatal, gain 2 Relics after combat and permanently transform this card."
+  },
+  "${modID}:AnotherBody": {
+    "NAME": "Another Body",
+    "DESCRIPTION": "Pick a card in your hand and permanently transform it. NL Permanently transform this card.",
+    "UPGRADE_DESCRIPTION": "Pick a card in your hand and permanently transform it. NL Exhaust."
+  },
+  "${modID}:Frankenstein": {
+    "NAME": "Frankenstein",
+    "DESCRIPTION": "At the start of your turn, add !M! random ${modID}:Body_Part into your hand.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, add !M! random ${modID}:Body_Parts into your hand."
+  },
+  "${modID}:Teeth": {
+    "NAME": "Teeth",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust."
+  },
+  "${modID}:Eye": {
+    "NAME": "Eye",
+    "DESCRIPTION": "Scry !M!. NL Draw 1 card. NL Exhaust."
+  },
+  "${modID}:Ribs": {
+    "NAME": "Ribs",
+    "DESCRIPTION": "Gain !B! Block. NL Exhaust."
+  },
+  "${modID}:Heart": {
+    "NAME": "Heart",
+    "DESCRIPTION": "Gain [E]. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain [E] [E]. NL Exhaust."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "Good Relic",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. [E] is an energy icon."
+    ]
+  },
+
+  "${modID}:StrangeSap": {
+    "NAME": "Strange Sap",
+    "FLAVOR": "A mildly toxic fluid that leaves behind sticky residue.",
+    "DESCRIPTIONS": [
+      "Whenever an enemy first intends to attack, apply #b",
+      " #yWeak."
+    ]
+  },
+  "${modID}:ViscousOoze": {
+    "NAME": "Viscous Ooze",
+    "FLAVOR": "Distilled, thickened sap that chokes the mouth and nose.",
+    "DESCRIPTIONS": [
+      "Replaces #yStrange #ySap. Whenever an enemy first intends to attack, it loses #b",
+      " #yStrength."
+    ]
+  },
+  "${modID}:FacePaint": {
+    "NAME": "Face Paint",
+    "FLAVOR": "Be yourself, unless you'd rather be somebody else.",
+    "DESCRIPTIONS": [
+      "Card rewards now contain #b1 additional choice of a different color."
+    ]
+  },
+  "${modID}:Antibiotics": {
+    "NAME": "Antibiotics",
+    "FLAVOR": "Overuse can promote resistance. Be sparing.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. ALL enemies start with #b",
+      " #yArtifact."
+    ]
+  },
+  "${modID}:JackInTheBox": {
+    "NAME": "Jack-in-the-Box",
+    "FLAVOR": "No matter how much you crank the handle, the puppet refuses t*POP!*",
+    "DESCRIPTIONS": [
+      "If you do not take damage on a turn where you have #yVulnerable, gain #b",
+      " #yStrength."
+    ]
+  },
+  "${modID}:CostumeKit": {
+    "NAME": "Costume Kit",
+    "FLAVOR": "For whatever reason, corpses wearing these outfits are particularly common.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain [E] and draw #b1 card. At the end of your turn, deal #b3 damage to a random enemy. At the end of combat, heal #b3 HP."
+    ]
+  },
+  "${modID}:LilMaggots": {
+    "NAME": "Li'l Maggots",
+    "FLAVOR": "Even in the heat of battle, it's important to stay well-fed.",
+    "DESCRIPTIONS": [
+      "Whenever an enemy that is not a #yMinion dies, heal #b4 HP."
+    ]
+  },
+  "${modID}:BogBody": {
+    "NAME": "Bog Body",
+    "FLAVOR": "Remarkably well-preserved, with a strange tattoo across its forehead.",
+    "DESCRIPTIONS": [
+      "Whenever an enemy's attack damages you, ALL enemies gain #ySlow for your next turn."
+    ]
+  },
+  "${modID}:LookingGlass": {
+    "NAME": "Looking Glass",
+    "FLAVOR": "A different world is visible through the lens, so close you can almost touch it.",
+    "DESCRIPTIONS": [
+      "Whenever the enemy gains a buff, gain #b1 #yDexterity."
+    ]
+  },
+  "${modID}:StarvingSeeds": {
+    "NAME": "Starving Seeds",
+    "FLAVOR": "The seeds of a snake plant, already bearing full-grown teeth.",
+    "DESCRIPTIONS": [
+      "The first time you gain #yBlock each combat, heal HP instead."
+    ]
+  },
+  "${modID}:MutatingGarden": {
+    "NAME": "Mutating Garden",
+    "FLAVOR": "Just keep it pruned and nobody gets hurt.",
+    "DESCRIPTIONS": [
+      "Normal enemies drop #b2 additional card rewards. Whenever you climb a floor, remove a card from your deck.",
+      "Choose 1 Card to Remove."
+    ]
+  }
+}

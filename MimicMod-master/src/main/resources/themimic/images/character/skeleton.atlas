@@ -1,0 +1,153 @@
+
+skeleton.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 1
+  size: 182, 24
+  orig: 182, 24
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 105, 100
+  size: 34, 43
+  orig: 34, 43
+  offset: 0, 0
+  index: -1
+fingerdetails
+  rotate: false
+  xy: 41, 160
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+lowerarm
+  rotate: false
+  xy: 57, 83
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+upperarm
+  rotate: false
+  xy: 141, 100
+  size: 17, 52
+  orig: 17, 52
+  offset: 0, 0
+  index: -1
+toesright
+  rotate: false
+  xy: 61, 165
+  size: 22, 12
+  orig: 22, 12
+  offset: 0, 0
+  index: -1
+footright
+  rotate: false
+  xy: 68, 131
+  size: 21, 32
+  orig: 21, 32
+  offset: 0, 0
+  index: -1
+toesleft
+  rotate: false
+  xy: 105, 83
+  size: 23, 12
+  orig: 23, 12
+  offset: 0, 0
+  index: -1
+footleft
+  rotate: false
+  xy: 91, 145
+  size: 32, 20
+  orig: 32, 20
+  offset: 0, 0
+  index: -1
+calfright
+  rotate: false
+  xy: 80, 27
+  size: 57, 54
+  orig: 57, 54
+  offset: 0, 0
+  index: -1
+calfleft
+  rotate: false
+  xy: 176, 59
+  size: 34, 69
+  orig: 34, 69
+  offset: 0, 0
+  index: -1
+thighright
+  rotate: false
+  xy: 212, 59
+  size: 31, 71
+  orig: 31, 71
+  offset: 0, 0
+  index: -1
+thighleft
+  rotate: false
+  xy: 185, 1
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+waist
+  rotate: false
+  xy: 1, 83
+  size: 54, 41
+  orig: 54, 41
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 1, 27
+  size: 77, 54
+  orig: 77, 54
+  offset: 0, 0
+  index: -1
+shoulderstalks
+  rotate: false
+  xy: 139, 27
+  size: 35, 71
+  orig: 35, 71
+  offset: 0, 0
+  index: -1
+bottomshouldercap
+  rotate: false
+  xy: 61, 179
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+topshouldercap
+  rotate: false
+  xy: 41, 131
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 160, 131
+  size: 29, 25
+  orig: 29, 25
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1, 126
+  size: 38, 51
+  orig: 38, 51
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 160, 100
+  size: 12, 15
+  orig: 12, 15
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+{
+  "${modID}:PotionID": {
+    "NAME": "Some Kind of Potion",
+    "DESCRIPTIONS": [
+      "Little",
+      " pieces ",
+      "that get put together",
+      " into a description.",
+      " Exactly how depends on the potion, and you can set it up however you want."
+    ]
+  },
+  "${modID}:ParasitePotion": {
+    "NAME": "Parasite Potion",
+    "DESCRIPTIONS": [
+      "Apply #b",
+      " #yLeech. "
+    ]
+  },
+  "${modID}:CorpseBrew": {
+    "NAME": "Corpse Brew",
+    "DESCRIPTIONS": [
+      "Add #b",
+      " random #yBody #yParts to your hand. "
+    ]
+  },
+  "${modID}:SpiritOfAnything": {
+    "NAME": "Spirit of Anything",
+    "DESCRIPTIONS": [
+      "When a Potion is used, this Potion becomes #b",
+      " copy of the used Potion.",
+      " copies of the used Potion."
+    ]
+  }
+}

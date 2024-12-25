@@ -1,0 +1,63 @@
+[
+  {
+    "PROPER_NAME": "This is displayed in the tooltip.",
+    "NAMES": [
+      "these",
+      "are",
+      "detected",
+      "in",
+      "the",
+      "text"
+    ],
+    "DESCRIPTION": "This is displayed in the tooltip. Spaces should not be used be avoided in NAMES, with the exception of multi-word keywords (see next entry)."
+  },
+  {
+    "PROPER_NAME": "Multiword Keyword",
+    "NAMES": [
+      "multiword keyword",
+      "multiword_keyword",
+      "multiword_keywords"
+    ],
+    "DESCRIPTION": "Make sure the first element in NAMES has no underscores. The rest should use _ in the place of spaces. In card text, you'll use the underscore versions."
+  },
+  {
+    "ID": "leech",
+    "PROPER_NAME": "Leech",
+    "NAMES": [
+      "leech"
+    ],
+    "DESCRIPTION": "Leeched creatures lose HP at the start of their turn. The leech gains half the lost HP as #yBlock. Leech wears off after #b2 turns."
+  },
+  {
+    "PROPER_NAME": "Enrage",
+    "NAMES": [
+      "enrage",
+      "enraged"
+    ],
+    "DESCRIPTION": "Enraged creatures gain #yStrength when a #ySkill is played."
+  },
+  {
+    "PROPER_NAME": "Slow",
+    "NAMES": [
+      "slow"
+    ],
+    "DESCRIPTION": "Creatures with Slow take more damage the more cards you play in a turn. Slow resets at the start of your turn."
+  },
+  {
+    "PROPER_NAME": "Stun",
+    "NAMES": [
+      "stun"
+    ],
+    "DESCRIPTION": "Stunned creatures skip their turn."
+  },
+  {
+    "ID": "bodyparts",
+    "PROPER_NAME": "Body Parts",
+    "NAMES": [
+      "body part",
+      "body_part",
+      "body_parts"
+    ],
+    "DESCRIPTION": "Body Parts are #b0 cost cards with a variety of effects. They Exhaust when played."
+  }
+]

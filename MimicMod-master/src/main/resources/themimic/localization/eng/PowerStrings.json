@@ -1,0 +1,195 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "Ultimate Power",
+    "DESCRIPTIONS": [
+      "You are Very Cool and Strong."
+    ]
+  },
+  "${modID}:Leech": {
+    "NAME": "Leech",
+    "DESCRIPTIONS": [
+      "At the start of its turn, loses #b",
+      " HP and grants #b",
+      " #yBlock. Loses #b",
+      " #yLeech this turn."
+    ]
+  },
+  "${modID}:UnLeech": {
+    "NAME": "UnLeech",
+    "DESCRIPTIONS": [
+      "Shouldn't be visible. Loses #b",
+      " #yLeech in #b",
+      " turns.",
+      " turn."
+    ]
+  },
+  "${modID}:Shifter": {
+    "NAME": "Shifter",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b",
+      " temporary #yStrength or #yDexterity, depending on enemy intents."
+    ]
+  },
+  "${modID}:Morph": {
+    "NAME": "Morph",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b",
+      " #yBlock, then reduce this amount by half."
+    ]
+  },
+  "${modID}:Hackles": {
+    "NAME": "Hackles",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain ",
+      "if all enemies intend to attack."
+    ]
+  },
+  "${modID}:HacklesUpgrade": {
+    "NAME": "Hackles",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain ",
+      "if any enemy intends to attack."
+    ]
+  },
+  "${modID}:Autotomize": {
+    "NAME": "Autotomize",
+    "DESCRIPTIONS": [
+      "Whenever you play a #yBody #yPart, gain #b",
+      " #yBlock."
+    ]
+  },
+  "${modID}:LongCon": {
+    "NAME": "Long Con",
+    "DESCRIPTIONS": [
+      "Next time this enemy does not intend to attack, it loses #b",
+      " HP."
+    ]
+  },
+  "${modID}:Repurpose": {
+    "NAME": "Repurpose",
+    "DESCRIPTIONS": [
+      "If you have unused #yBlock at the start of your turn, draw #b",
+      " cards."
+    ]
+  },
+  "${modID}:Bloom": {
+    "NAME": "Bloom",
+    "DESCRIPTIONS": [
+      "#yLeech lasts #b",
+      " additional turns."
+    ]
+  },
+  "${modID}:FogOfSpores": {
+    "NAME": "Fog of Spores",
+    "DESCRIPTIONS": [
+      "At the start of your turn, apply #b",
+      " #yLeech to a random enemy."
+    ]
+  },
+  "${modID}:FogOfSporesUpgrade": {
+    "NAME": "Fog of Spores",
+    "DESCRIPTIONS": [
+      "At the start of your turn, apply #b",
+      " #yLeech to ALL enemies."
+    ]
+  },
+  "${modID}:CadaverShield": {
+    "NAME": "Cadaver Shield",
+    "DESCRIPTIONS": [
+      "If your #yBlock is broken this turn, add #b",
+      " #yRibs into your hand."
+    ]
+  },
+  "${modID}:Nutrients": {
+    "NAME": "Nutrients",
+    "DESCRIPTIONS": [
+      "If you play an #yAttack and a #yPower this turn, remove all of your debuffs.",
+      "If you play an #yAttack this turn, remove all of your debuffs.",
+      "If you play a #yPower this turn, remove all of your debuffs."
+    ]
+  },
+  "${modID}:PorcelainSmile": {
+    "NAME": "Porcelain Smile",
+    "DESCRIPTIONS": [
+      "Attacks deal double damage. Lost upon taking unblocked damage."
+    ]
+  },
+  "${modID}:Frankenstein": {
+    "NAME": "Frankenstein",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b",
+      " #yBody #yPart into your hand.",
+      " #yBody #yParts into your hand."
+    ]
+  },
+  "${modID}:Infection": {
+    "NAME": "Infection",
+    "DESCRIPTIONS": [
+      "Whenever you apply #yLeech, apply #b",
+      " more."
+    ]
+  },
+  "${modID}:Graft": {
+    "NAME": "Graft",
+    "DESCRIPTIONS": [
+      "Deal #b",
+      " damage to ALL enemies whenever a card is created."
+    ]
+  },
+  "${modID}:Adaptive": {
+    "NAME": "Adaptive",
+    "DESCRIPTIONS": [
+      "Block the first hit of enemy multiattacks."
+    ]
+  },
+  "${modID}:MyriadForms": {
+    "NAME": "Myriad Forms",
+    "DESCRIPTIONS": [
+      "When you play #b",
+      " more card, draw a card.",
+      " more cards, draw a card.",
+      " more card, draw #b",
+      " more cards, draw #b",
+      " cards."
+    ]
+  },
+  "${modID}:SpeedUp": {
+    "NAME": "Speed Up",
+    "DESCRIPTIONS": [
+      "Loses #ySlow at the start of its next turn."
+    ]
+  },
+  "${modID}:StrengthRegain": {
+    "NAME": "Strength Regain",
+    "DESCRIPTIONS": [
+      "Gains #b1 #yStrength at the end of its turn.",
+      "Gains #b1 #yStrength at the end of its turn for the next #b",
+      " turns."
+    ]
+  },
+  "${modID}:Inspiration": {
+    "NAME": "Inspiration",
+    "DESCRIPTIONS": [
+      "Whenever the enemy gains #yStrength, gain #b",
+      " #yStrength."
+    ]
+  },
+  "${modID}:StrangeSap": {
+    "NAME": "Strange Sap",
+    "DESCRIPTIONS": [
+      "This shouldn't be visible. Sorry!"
+    ]
+  },
+  "${modID}:ViscousOoze": {
+    "NAME": "Viscous Ooze",
+    "DESCRIPTIONS": [
+      "This shouldn't be visible. Sorry!"
+    ]
+  },
+  "${modID}:JackInTheBox": {
+    "NAME": "Jack-in-the-Box",
+    "DESCRIPTIONS": [
+      "This shouldn't be visible. Sorry!"
+    ]
+  }
+}
